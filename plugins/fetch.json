@@ -1,0 +1,10 @@
+{
+    "cordova-plugin-vibration": {
+        "source": {
+            "type": "local",
+            "path": "/opt/intel/XDK/xdk/components/server/cordova-plugins/cordova-plugin-vibration"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}

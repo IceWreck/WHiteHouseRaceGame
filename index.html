@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+    <link rel="stylesheet" href="css/phonon.css" />
+    <link rel="stylesheet" href="css/theme.css" />
+    <title>White House Clash</title>
+</head>
+
+<body>
+    <home data-page="true">
+        <header class="header-bar">
+            <div class="center">
+                <h1 class="title">Race For The White House</h1>
+            </div>
+        </header>
+        <div class="content">
+            <!--Main Content-->
+            <br>
+            <br>
+            <div class="content padded-full">
+                <center>
+                    <img src="whitehouse.png">
+                    <br>
+                    <br>
+                    <h3>Game Mode:-</h3>
+                    <br>
+                    <a href="slow.html">
+                        <button class="btn fit-parent">Slow</button>
+                    </a>
+                    <br>
+                    <br>
+                    <a href="fast.html">
+                        <button class="btn fit-parent">Fast</button>
+                    </a>
+                    <br>
+                    <br>
+                    <br>
+                    <h3>Other:-</h3>
+                    <button id="info" class="btn btn-flat fit-parent negative ">How To Play ?</button>
+                    <br>
+                    
+                        <button data-panel-id="abifog" class="btn btn-flat fit-parent negative ">About Developer</button>
+                    
+                </center>
+            </div>
+        </div>
+    </home>
+    <!-- About Dev Start -->
+    <div id="abifog" class="panel-full">
+        <header class="header-bar">
+            <a class="btn icon icon-close pull-right" href="#" data-panel-close="true"></a>
+            <h1 class="title"><center>About The Developer</center></h1>
+        </header>
+        <div class="content">
+            <iframe frameborder="0" height="100%" width="100%" src="http://abifog.com/about-abifog.html"></iframe>
+        </div>
+    </div>
+    <!-- About Dev End -->
+    <script type="text/javascript" src="js/phonon.js"></script>
+    <script type="text/javascript">
+    document.querySelector('#info').on('tap', function() {
+        phonon.alert('Choose a gamemode. ( slow/fast ) Tap, or more likely, smack the faces of the 2016 US Presidential hopefuls. Your time is displayed at the top. Your objective is to achieve the highest number of smacks possible in THIRTY SECONDS. After one minute, the game gets over and the total number of smacks is displayed.', 'Instructions');
+    });
+    </script>
+</body>
+
+</html>
