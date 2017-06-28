@@ -4,8 +4,11 @@
 https://play.google.com/store/apps/details?id=com.abifog.whitehouserun
 
 ## Screenshots
-https://lh3.googleusercontent.com/OpIwcFimn90BmGu8bLrwoZS7ASToour76Mgra6QF4Pj8qmKl0iDzx8zD6mg4yECLCL4=h310-rw
-https://lh3.googleusercontent.com/R0xPBADzqOLMGSY4nm3rlIbcSJIELlw3QJCj9VbJyDzIYK0Hg-lb4F0ibL8pF-U3bQ=h310-rw
+![whr1](https://lh3.googleusercontent.com/OpIwcFimn90BmGu8bLrwoZS7ASToour76Mgra6QF4Pj8qmKl0iDzx8zD6mg4yECLCL4=h310-rw)
+![whr1](https://lh3.googleusercontent.com/R0xPBADzqOLMGSY4nm3rlIbcSJIELlw3QJCj9VbJyDzIYK0Hg-lb4F0ibL8pF-U3bQ=h310-rw)
+![whr1](https://lh3.googleusercontent.com/j-2RAJkwzuYqw5QTW-GwOXUEEsp3bSlpoH6PffdmZ40VxXv8VlkmGCeSb4mDxyREe1o=h310-rw)
+
+
 ## Stack
 Built with Apache Cordova and the Phonon Framework (http://phonon.quarkdev.com/) for the material design CSS. Used jquery for making the actual game. 
 Intel XDK use is optional. You can simply use the html/css/js files in your own project.
